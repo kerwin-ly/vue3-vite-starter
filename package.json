@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "lint": "yarn lint:ts && yarn lint:style",
     "lint:ts": "eslint src/ --ext .ts,.js,.tsx",
-    "lint:style": "stylelint --fix \"src/**/*.less\" --custom-syntax postcss-less"
+    "lint:style": "stylelint --fix \"src/**/*.less\" --custom-syntax postcss-less",
+    "prepare": "husky install"
   },
   "dependencies": {
     "vue": "^3.2.25"
